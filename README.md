@@ -35,3 +35,6 @@ java App
 ## How to Contribute
 - Contributions are welcome! 
 - Feel free to submit pull requests or open issues to suggest features or report bugs.
+
+## License
+- ZenWrite is released under the MIT License. See the LICENSE file for details.
