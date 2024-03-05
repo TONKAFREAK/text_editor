@@ -25,3 +25,13 @@ To run ZenWrite, you will need a Java Runtime Environment (JRE). With JRE instal
 ```bash
 javac App.java
 java App
+
+```
+## Still Working on
+- **Custom Fonts**: Support for custom fonts to make your writing environment as comfortable as possible.
+- **Find Function**: Easily search and find words in your text with the find feature. -- finish it.
+- **Status Panel**: Report any updates such as: File saved, File opened, Error messages.
+   
+## How to Contribute
+- Contributions are welcome! 
+- Feel free to submit pull requests or open issues to suggest features or report bugs.
