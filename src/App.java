@@ -148,12 +148,6 @@ public class App extends JFrame implements ActionListener, KeyListener {
         }
     }
 
-        
-    
-    
-    
-    // checks if user put any input in before calling the openFile() method,
-    // if so it asks the user if they want to save the changes or just open the new file.
     private void openFile() {
         if (isTextChanged) {
             int result = JOptionPane.showConfirmDialog(this, "Do you want to save changes?", "Save Changes", JOptionPane.YES_NO_CANCEL_OPTION);
@@ -181,14 +175,14 @@ public class App extends JFrame implements ActionListener, KeyListener {
             currentFile = fileChooser.getSelectedFile();
             try (BufferedReader reader = new BufferedReader(new FileReader(currentFile))) {
                 textArea.read(reader, null);
-                isTextChanged = false; // Reset the flag since we just loaded a file
+                isTextChanged = false; // Reset the flag
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
         }
     }
     
-    // Method to save a file
+    //save a file
     private void saveFile() {
         if (currentFile != null) {
             try {
